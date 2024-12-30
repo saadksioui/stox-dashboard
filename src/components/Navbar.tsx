@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { notificationsData, sidebarLinks } from "../constants";
 import { AlignLeft, ArrowRight, BadgeAlert, ChevronDown, LogOut, MessageCircleWarning, OctagonAlert, Settings, Trash, User } from "lucide-react";
 import moment from "moment";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [currentPath, setCurrentPath] = useState("");
@@ -96,10 +97,10 @@ const Navbar = () => {
                       : "text-gray-400"
                       }`}
                   >
-                    <a href={link.href} className="flex items-center gap-4">
+                    <Link to={link.href} className="flex items-center gap-4">
                       {link.icon}
                       <span>{link.name}</span>
-                    </a>
+                    </Link>
                     {currentPath === link.href && <ArrowRight size={20} color="#FFF" />}
                   </li>
                 ))}
@@ -183,10 +184,10 @@ const Navbar = () => {
               <User size={22} />
               <span className="text-sm font-semibold font-poppins">My Profile</span>
             </div>
-            <a href={"/setting"} className="flex items-center gap-3 w-full">
+            <Link to={"/setting"} className="flex items-center gap-3 w-full">
               <Settings size={22} />
               <span className="text-sm font-semibold font-poppins">Account Settings</span>
-            </a>
+            </Link>
           </div>
           <div>
             <div className="flex items-center gap-3 px-7 py-5">

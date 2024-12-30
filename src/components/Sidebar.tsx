@@ -1,6 +1,7 @@
 import { sidebarLinks } from "../constants";
 import { ArrowRight } from "lucide-react";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
 
@@ -33,10 +34,10 @@ const Sidebar = () => {
                     : "text-gray-400"
                     }`}
                 >
-                  <a href={link.href} className="flex items-center gap-4">
+                  <Link to={link.href} className="flex items-center gap-4">
                     {link.icon}
                     <span>{link.name}</span>
-                  </a>
+                  </Link>
                   {currentPath === link.href && <ArrowRight size={20} color="#FFF" />}
                 </li>
               ))}
