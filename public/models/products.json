@@ -1,0 +1,202 @@
+[
+  {
+    "ID": 1,
+    "Name": "Wireless Mouse",
+    "Image": "https://m.media-amazon.com/images/I/81nDflpCF8L._AC_SL1500_.jpg",
+    "Category": "Electronics",
+    "Price": 25.99,
+    "Ratings": 4.5,
+    "Orders": 120,
+    "Stock": 45
+  },
+  {
+    "ID": 2,
+    "Name": "Bluetooth Headphones",
+    "Image": "https://m.media-amazon.com/images/I/71C36VF819L._AC_SL1500_.jpg",
+    "Category": "Electronics",
+    "Price": 59.99,
+    "Ratings": 4.7,
+    "Orders": 98,
+    "Stock": 30
+  },
+  {
+    "ID": 3,
+    "Name": "Running Shoes",
+    "Image": "https://m.media-amazon.com/images/I/71+AbLh5OqL._AC_SY695_.jpg",
+    "Category": "Fashion",
+    "Price": 49.99,
+    "Ratings": 4.2,
+    "Orders": 150,
+    "Stock": 60
+  },
+  {
+    "ID": 4,
+    "Name": "Stainless Steel Water Bottle",
+    "Image": "https://m.media-amazon.com/images/I/61hoXEN+spL._AC_SL1500_.jpg",
+    "Category": "Home & Kitchen",
+    "Price": 15.99,
+    "Ratings": 4.8,
+    "Orders": 200,
+    "Stock": 80
+  },
+  {
+    "ID": 5,
+    "Name": "Samsung Galaxy A05s",
+    "Image": "https://m.media-amazon.com/images/I/61PTKZYFuOL._AC_SL1475_.jpg",
+    "Category": "Electronics",
+    "Price": 699.99,
+    "Ratings": 4.6,
+    "Orders": 45,
+    "Stock": 20
+  },
+  {
+    "ID": 6,
+    "Name": "Leather Wallet",
+    "Image": "https://m.media-amazon.com/images/I/81tVS0lRX3L._AC_SL1500_.jpg",
+    "Category": "Fashion",
+    "Price": 19.99,
+    "Ratings": 4.4,
+    "Orders": 170,
+    "Stock": 90
+  },
+  {
+    "ID": 7,
+    "Name": "Non-stick Frying Pan",
+    "Image": "https://m.media-amazon.com/images/I/81r7lrTXMWS._AC_SL1500_.jpg",
+    "Category": "Home & Kitchen",
+    "Price": 22.49,
+    "Ratings": 4.3,
+    "Orders": 80,
+    "Stock": 35
+  },
+  {
+    "ID": 8,
+    "Name": "Gaming Keyboard",
+    "Image": "https://m.media-amazon.com/images/I/71RKUPCabuL._AC_SL1500_.jpg",
+    "Category": "Electronics",
+    "Price": 79.99,
+    "Ratings": 4.7,
+    "Orders": 60,
+    "Stock": 25
+  },
+  {
+    "ID": 9,
+    "Name": "Cotton Bedsheet",
+    "Image": "https://m.media-amazon.com/images/I/51CeY8-kKVL._AC_SL1500_.jpg",
+    "Category": "Home & Kitchen",
+    "Price": 29.99,
+    "Ratings": 4.5,
+    "Orders": 130,
+    "Stock": 50
+  },
+  {
+    "ID": 10,
+    "Name": "Sunglasses",
+    "Image": "https://m.media-amazon.com/images/I/61DFNuKpSNL._AC_SX679_.jpg",
+    "Category": "Fashion",
+    "Price": 12.99,
+    "Ratings": 4.1,
+    "Orders": 90,
+    "Stock": 55
+  },
+  {
+    "ID": 11,
+    "Name": "Laptop Backpack",
+    "Image": "https://m.media-amazon.com/images/I/91w21H8CYBL._AC_SL1500_.jpg",
+    "Category": "Fashion",
+    "Price": 39.99,
+    "Ratings": 4.6,
+    "Orders": 85,
+    "Stock": 40
+  },
+  {
+    "ID": 12,
+    "Name": "Mechanical Keyboard",
+    "Image": "https://m.media-amazon.com/images/I/71Hq6EahZDL._AC_SL1500_.jpg",
+    "Category": "Electronics",
+    "Price": 89.99,
+    "Ratings": 4.8,
+    "Orders": 72,
+    "Stock": 18
+  },
+  {
+    "ID": 13,
+    "Name": "Kitchen Knife Set",
+    "Image": "https://m.media-amazon.com/images/I/61a9AEIdX4L._AC_SL1500_.jpg",
+    "Category": "Home & Kitchen",
+    "Price": 49.99,
+    "Ratings": 4.7,
+    "Orders": 60,
+    "Stock": 25
+  },
+  {
+    "ID": 14,
+    "Name": "Travel Mug",
+    "Image": "https://m.media-amazon.com/images/I/71cQw1bvzQL._AC_SL1500_.jpg",
+    "Category": "Home & Kitchen",
+    "Price": 14.99,
+    "Ratings": 4.3,
+    "Orders": 110,
+    "Stock": 75
+  },
+  {
+    "ID": 15,
+    "Name": "Fitness Tracker",
+    "Image": "https://m.media-amazon.com/images/I/71dDIsXQDRL._AC_SL1500_.jpg",
+    "Category": "Electronics",
+    "Price": 49.99,
+    "Ratings": 4.5,
+    "Orders": 55,
+    "Stock": 28
+  },
+  {
+    "ID": 16,
+    "Name": "Office Chair",
+    "Image": "https://m.media-amazon.com/images/I/71So6OYIPrL._AC_SL1500_.jpg",
+    "Category": "Home & Kitchen",
+    "Price": 129.99,
+    "Ratings": 4.4,
+    "Orders": 35,
+    "Stock": 10
+  },
+  {
+    "ID": 17,
+    "Name": "Casual T-Shirt",
+    "Image": "https://m.media-amazon.com/images/I/71XUPSegYaL._AC_SY741_.jpg",
+    "Category": "Fashion",
+    "Price": 9.99,
+    "Ratings": 4.2,
+    "Orders": 200,
+    "Stock": 150
+  },
+  {
+    "ID": 18,
+    "Name": "Wireless Charger",
+    "Image": "https://m.media-amazon.com/images/I/71WP6Kv-Y2L._AC_SL1500_.jpg",
+    "Category": "Electronics",
+    "Price": 19.99,
+    "Ratings": 4.6,
+    "Orders": 65,
+    "Stock": 20
+  },
+  {
+    "ID": 19,
+    "Name": "Hiking Backpack",
+    "Image": "https://m.media-amazon.com/images/I/81eN5XBsqsL._AC_SX679_.jpg",
+    "Category": "Fashion",
+    "Price": 59.99,
+    "Ratings": 4.7,
+    "Orders": 50,
+    "Stock": 25
+  },
+  {
+    "ID": 20,
+    "Name": "Table Lamp",
+    "Image": "https://m.media-amazon.com/images/I/51v1EQldHtL._AC_SL1500_.jpg",
+    "Category": "Home & Kitchen",
+    "Price": 24.99,
+    "Ratings": 4.3,
+    "Orders": 120,
+    "Stock": 35
+  }
+]

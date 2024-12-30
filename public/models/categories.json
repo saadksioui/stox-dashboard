@@ -1,0 +1,52 @@
+[
+  {
+    "CategoryID": "CAT001",
+    "Name": "Electronics",
+    "Description": "Devices, gadgets, and accessories."
+  },
+  {
+    "CategoryID": "CAT002",
+    "Name": "Fashion",
+    "Description": "Clothing, footwear, and accessories."
+  },
+  {
+    "CategoryID": "CAT003",
+    "Name": "Home & Kitchen",
+    "Description": "Appliances, furniture, and decor items."
+  },
+  {
+    "CategoryID": "CAT004",
+    "Name": "Books",
+    "Description": "Fiction, non-fiction, educational, and comics."
+  },
+  {
+    "CategoryID": "CAT005",
+    "Name": "Sports & Outdoors",
+    "Description": "Sports equipment and outdoor gear."
+  },
+  {
+    "CategoryID": "CAT006",
+    "Name": "Toys & Games",
+    "Description": "Toys, puzzles, and games for all ages."
+  },
+  {
+    "CategoryID": "CAT007",
+    "Name": "Beauty & Personal Care",
+    "Description": "Skincare, makeup, and grooming products."
+  },
+  {
+    "CategoryID": "CAT008",
+    "Name": "Automotive",
+    "Description": "Car accessories, tools, and spare parts."
+  },
+  {
+    "CategoryID": "CAT009",
+    "Name": "Health & Wellness",
+    "Description": "Supplements, fitness, and health products."
+  },
+  {
+    "CategoryID": "CAT010",
+    "Name": "Groceries",
+    "Description": "Daily essentials, food, and beverages."
+  }
+]
