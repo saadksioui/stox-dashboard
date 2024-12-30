@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import DefaultLay from "../layout/DefaultLay";
 
 export default function NotFound() {
   const navigate = useNavigate();
@@ -15,8 +16,10 @@ export default function NotFound() {
   }, [navigate]);
 
   return (
-    <div className="h-screen flex items-center justify-center font-bold font-poppins text-center">
-      Redirecting you to <br /> the Dashboard...
-    </div>
+    <DefaultLay>
+      <div className="h-screen flex items-center justify-center font-bold font-poppins text-center">
+        Redirecting you to <br /> the Dashboard...
+      </div>
+    </DefaultLay>
   );
 }

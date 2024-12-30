@@ -5,6 +5,7 @@ import Orders from "./pages/Orders";
 import Categories from "./pages/Categories";
 import Customers from "./pages/Customers";
 import Setting from "./pages/Setting";
+import NotFound from "./pages/NotFound";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/categories" element={<Categories/>} />
         <Route path="/customers" element={<Customers/>} />
         <Route path="/setting" element={<Setting/>} />
+        <Route path="*" element={<NotFound/>} />
       </Routes>
     </BrowserRouter>
   )
