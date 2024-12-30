@@ -37,13 +37,12 @@ const RecentOrders = () => {
                   </td>
                   <td className="px-6 py-4 text-xs">
                     <span
-                      className={`px-2 border rounded-full ${
-                        product.Status === "Shipped"
+                      className={`px-2 border rounded-full ${product.Status === "Shipped"
                           ? "text-green-500 border-green-500"
                           : product.Status === "Pending"
-                          ? "text-blue-500 border-blue-500"
-                          : "text-red-500 border-red-500"
-                      }`}
+                            ? "text-blue-500 border-blue-500"
+                            : "text-red-500 border-red-500"
+                        }`}
                     >
                       {product.Status}
                     </span>
@@ -66,9 +65,10 @@ const RecentOrders = () => {
               ))
             ) : (
               <tr>
-                <td colSpan="5" className="text-center py-4">
+                <td colSpan={5} className="text-center py-4">
                   No orders to display.
                 </td>
+
               </tr>
             )}
           </tbody>

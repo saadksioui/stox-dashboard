@@ -1,8 +1,12 @@
-import React from "react";
 import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
+import { FC, ReactNode } from "react";
 
-const DefaultLay = ({ children }) => {
+interface DefaultLayoutProps {
+  children: ReactNode;
+}
+
+const DefaultLay: FC<DefaultLayoutProps> = ({ children }) => {
   return (
     <>
       <div className="hidden lg:block w-1/4 xl:w-1/5 h-screen fixed top-0 left-0 z-50 bg-[#1C2434]">
@@ -15,7 +19,7 @@ const DefaultLay = ({ children }) => {
         </main>
       </div>
     </>
-  )
+  );
 };
 
-export default DefaultLay
+export default DefaultLay;
