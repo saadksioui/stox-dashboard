@@ -1,4 +1,3 @@
-import React from "react";
 import { Product } from "../../types";
 import axios from "axios";
 import { Eye, Pen, Trash } from "lucide-react";

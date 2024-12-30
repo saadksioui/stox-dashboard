@@ -1,4 +1,3 @@
-import React from "react";
 import AllOrders from "../components/tables/AllOrders";
 import DefaultLay from "../layout/DefaultLay";
 

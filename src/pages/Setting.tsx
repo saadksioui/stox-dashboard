@@ -1,4 +1,4 @@
-import React from "react";
+
 import ProfileImage from "../components/forms/ProfileImage";
 import ProfileInfo from "../components/forms/ProfileInfo";
 import DefaultLay from "../layout/DefaultLay";

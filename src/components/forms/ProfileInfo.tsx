@@ -1,4 +1,3 @@
-import React from "react";
 import { Edit, Mail, Phone, User } from "lucide-react";
 
 const ProfileInfo = () => {

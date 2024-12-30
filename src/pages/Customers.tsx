@@ -1,4 +1,3 @@
-import React from "react";
 import AllCustomers from "../components/tables/AllCustomers";
 import DefaultLay from "../layout/DefaultLay";
 

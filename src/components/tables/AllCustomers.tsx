@@ -1,4 +1,3 @@
-import React from "react";
 import { CustomerTypes } from "../../types";
 import axios from "axios";
 import { BadgeCheck, BadgeX, Eye, Pen, Trash } from "lucide-react";

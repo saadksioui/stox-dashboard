@@ -1,4 +1,3 @@
-import React from "react";
 import { Category } from "../../types";
 import axios from "axios";
 import { Edit } from "lucide-react";
